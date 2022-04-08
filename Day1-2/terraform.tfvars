@@ -1,0 +1,13 @@
+tag_env = "Prod"
+region = "us-east-2"
+access_key ="AKIAYIMEDZZZJWVMTPHB"
+secret_key = "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"
+elb_name = "myelb-demo1"
+timeout = 400
+az = ["us-east-2a","us-east-2b","us-east-2c"]
+protocol = "http"
+instance_port = 8000
+lb_port = 80
+unhealthy_threshold = 2
+healthy_threshold = 2
+interval = 30
